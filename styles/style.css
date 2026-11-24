@@ -71,3 +71,17 @@ section h2 {
   margin-bottom: 8px;
   color: #0f172a;
 }
+.contact-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 24px 16px;
+  margin-top: 32px;
+  font-size: 0.9rem;
+  color: #475569;
+}
