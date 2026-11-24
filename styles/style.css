@@ -10,3 +10,20 @@ body {
   background-color: #f4f6f9;
   color: #222;
 }
+nav {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 600;
+}
+
+#hero {
+  text-align: center;
+  padding: 40px 20px;
+}
