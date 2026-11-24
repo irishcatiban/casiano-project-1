@@ -1,76 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Casiano | Personal Portfolio</title>
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/style.css" />
 </head>
 <body>
-
-  <header>
-    <h1>Casiano</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#" class="brand">Casiano</a>
+      <nav aria-label="Primary navigation">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section id="hero">
-      <div class="avatar">C</div>
-      <h2>Hello, I'm Casiano</h2>
-      <p>IT Student & Aspiring Web Developer creating clean, simple, and responsive websites.</p>
-      <a href="#projects" class="btn">View My Projects</a>
+  <main class="container">
+    <section class="hero-card" aria-label="Introduction">
+      <div class="avatar-circle">S</div>
+      <h1>Hello, I'm Shame</h1>
+      <p class="hero-subtitle">
+        Just a student trying my best, learning along the way, and growing into a better version of myself.
+      </p>
+      <a href="#projects" class="btn-primary">View My Projects</a>
     </section>
 
-    <section id="about">
+    <section id="about" class="section-card">
       <h2>About Me</h2>
-      <p>Welcome to my personal portfolio! I am currently studying web development, learning how to build structured web pages with HTML and CSS, and managing code versions using Git and GitHub.</p>
+      <hr class="section-divider" />
+      <p>
+        Hi! I'm Casiano, an IT student. I enjoy learning new things and exploring technology. This website is a project for my school, where I can share a little about myself and my work.
+      </p>
     </section>
 
-    <section id="skills">
+    <section id="skills" class="section-card">
       <h2>My Skills</h2>
-      <div class="skills-grid">
-        <div class="skill-card">HTML5</div>
-        <div class="skill-card">CSS3</div>
-        <div class="skill-card">Responsive Design</div>
-        <div class="skill-card">Git & GitHub</div>
+      <hr class="section-divider" />
+      <div class="skills-list">
+        <div class="skill-item">Responsible</div>
       </div>
     </section>
 
-    <section id="projects">
+    <section id="projects" class="section-card">
       <h2>Projects</h2>
-      <div class="projects-grid">
-        <div class="project-card">
+      <hr class="section-divider" />
+      <div class="projects-stack">
+        <article class="project-item">
           <h3>Personal Portfolio Website</h3>
-          <p>A responsive personal portfolio built from scratch using semantic HTML and custom CSS, deployed via GitHub Pages.</p>
-        </div>
-        <div class="project-card">
+          <p>
+            My personal website where I share information about myself, my interests, and a little about my life.
+          </p>
+        </article>
+
+        <article class="project-item">
           <h3>Kabankalan Catholic College Landing Page</h3>
-          <p>A customized Bootstrap institutional landing page showcasing school programs, events, and campus information.</p>
-        </div>
+          <p>
+            A website project about Kabankalan Catholic College. It includes information about the school and other details.
+          </p>
+        </article>
       </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="section-card">
       <h2>Contact Me</h2>
-      <p>Feel free to reach out for collaborations or school projects:</p>
+      <hr class="section-divider" />
       <ul class="contact-list">
         <li><strong>Email:</strong> shamelouiecasiano@gmail.com</li>
-        <li><strong>GitHub:</strong> github.com/irishcatiban</li>
+        <li><strong>Facebook:</strong> Shame Louie Casiano</li>
         <li><strong>Location:</strong> Kabankalan City, Negros Occidental</li>
       </ul>
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2026 Casiano. All rights reserved.</p>
+  <footer class="site-footer">
+    <p>&copy; 2026 Casiano</p>
   </footer>
-
 </body>
 </html>
-
 
