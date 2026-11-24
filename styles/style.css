@@ -74,19 +74,15 @@ body {
   box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);
 }
 
-.avatar-circle {
-  width: 68px;
-  height: 68px;
-  margin: 0 auto 18px;
+.profile-pic {
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
-  background-color: #29a9e0;
-  color: #0f172a;
-  font-size: 1.5rem;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 16px;
 }
+
 
 .hero-card h1 {
   font-size: 2rem;
